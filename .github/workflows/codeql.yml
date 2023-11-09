@@ -72,7 +72,6 @@ jobs:
         make CFLAGS=-Wno-error -C CWE-170/src  
         make CFLAGS=-Wno-error -C CWE-193/src  
         make CFLAGS=-Wno-error -C CWE-197/src  
-        make CFLAGS=-Wno-error -C CWE-222/src  
         make CFLAGS=-Wno-error -C CWE-401/src  
         make CFLAGS=-Wno-error -C CWE-415/src  
         make CFLAGS=-Wno-error -C CWE-457/src  
@@ -83,10 +82,8 @@ jobs:
         make CFLAGS=-Wno-error -C CWE-195/src
         make CFLAGS=-Wno-error -C CWE-20/src   
         make CFLAGS=-Wno-error -C CWE-369/src  
-        make CFLAGS=-Wno-error -C CWE-403/src
         make CFLAGS=-Wno-error -C CWE-416/src
         make CFLAGS=-Wno-error -C CWE-476/src
-        make CFLAGS=-Wno-error -C CWE-787/src
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
